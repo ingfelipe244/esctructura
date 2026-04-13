@@ -2,12 +2,7 @@
 <html lang="en">
 
 <!-- ESTO ES EL CODIGIO CSS ORGANIZADO EN EL MISMO DOCUMENTO -->
-<style>
-h1
- {
-    color:red;
- }
-</style>
+
 
 <head>
     <link rel="stylesheet" href="css/estiloDark.css">
@@ -16,6 +11,13 @@ h1
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Caballos</title>
 </head>
+
+<style>
+h1
+ {
+    color:#d51818;
+ }
+</style>
 
 <body>
 
@@ -42,7 +44,10 @@ h1
     
     <h1>Titulo 2 para CSS</h1>
     <a href="https://es.wikipedia.org/wiki/Equus_ferus_caballus">
-        <img src="imagenes/logo.jpg">
+
+        <img src="imagenes/logo.jpg" id="fotologo" class="bordes">
+        <img src="imagenes/animacion2.gif" id="fotoanimada" class="bordes">
+
     </a>
 
     <br>
@@ -133,7 +138,7 @@ h1
 
         <h2>Inscripción Equina</h2>
 
-        <form action="" method="">
+        <form action="" method="" id="formularioInscripcion">
 
             <label for="raza">Raza:</label>
             <input type="text" name="razCaballo" id="raza_caballo" autocomplete="off">
@@ -208,6 +213,16 @@ h1
         </tr>
     </table>
 
+    <form id="login">
+
+        <label for="">Usuario:</label>
+        <input type="text" name="" id="">
+
+        <label for="">Password:</label>
+        <input type="password" name="" id="">
+
+        <button>INGRESAR</button>
+    </form>
 
 
 </body>
