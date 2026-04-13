@@ -1,7 +1,17 @@
 <!DOCTYPE html>
 <html lang="en">
 
+<!-- ESTO ES EL CODIGIO CSS ORGANIZADO EN EL MISMO DOCUMENTO -->
+<style>
+h1
+ {
+    color:red;
+ }
+</style>
+
 <head>
+    <link rel="stylesheet" href="css/estiloDark.css">
+    <link rel="stylesheet" href="css/estilospropios.css">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Caballos</title>
@@ -9,11 +19,16 @@
 
 <body>
 
+
+
     <nav>
         <a href="venta.html">Venta - Ejemplares</a>
     </nav>
 
-    <h1>Titulo grande</h1>
+    <!-- EL CODIGIO CSS EN EL MISMO DOCUMENTO NO ORGANIZADO-->
+    <h1 style="color:blue;">Titulo grande</h1>
+
+
     <h2>Titulo no tan grande</h2>
     <h3>Titulo mediano</h3>
 
@@ -24,7 +39,8 @@
         <li>Caballo 2</li>
         <li>Caballo 3</li>
     </ol>
-
+    
+    <h1>Titulo 2 para CSS</h1>
     <a href="https://es.wikipedia.org/wiki/Equus_ferus_caballus">
         <img src="imagenes/logo.jpg">
     </a>
@@ -120,19 +136,19 @@
         <form action="" method="">
 
             <label for="raza">Raza:</label>
-            <input type="text" name="razCaballo" id="raza_caballo" autocomplete="off" >
-            
+            <input type="text" name="razCaballo" id="raza_caballo" autocomplete="off">
+
             <br>
-            
+
             <label for="sexo">Sexo:</label>
             <label>Hembra:</label><input type="radio" name="sexoCaballo" id="">
             <label>Macho:</label><input type="radio" name="sexoCaballo" id="">
-            
+
             <br>
             <label for="habilidades">Habilidades:</label>
             Velocidad: <input type="checkbox">
             Artistico: <input type="checkbox">
-            
+
             <br>
             <label for="nomCaballo">Nombre Caballo:</label>
             <input type="text" name="nomCaballo">
@@ -174,7 +190,7 @@
             <br>
 
             <input type="submit" value="Guardar Información">
-            
+
         </form>
 
 
