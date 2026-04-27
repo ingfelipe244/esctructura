@@ -2,3 +2,23 @@ h1
  {
     color:#4c8341;
  }
+
+ #menu
+ {
+   background-color: #421f01; /*fondo de la barra completa*/
+   padding: 15px; /*una margen en la barra*/
+   box-shadow: 5px 2px 5px 2px black;
+
+ }
+ #menu li{
+   
+   list-style: none; /*no tenga estilo alguno --- quitar puntos en los li*/
+   display: inline-block; /*alinear cada item y que no tenga espacio como enter*/
+   font: bold 20px; /*le demos negrita a los items*/
+   padding-left: 50px; /*una margen a la izquierda de cada item*/
+   
+ }
+ a{
+   text-decoration: none; /*vinculo sin linea */
+   color:white; /*letra en blanco*/
+ }

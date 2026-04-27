@@ -1,0 +1,9 @@
+#F2CB05    amarillo
+
+#F29F05    amarillo oscuro
+
+#BF6B04    café claro
+
+#592B02    cafe
+
+#0D0D0D   negro
