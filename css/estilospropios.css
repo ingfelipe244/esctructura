@@ -22,3 +22,20 @@ h1
    text-decoration: none; /*vinculo sin linea */
    color:white; /*letra en blanco*/
  }
+
+ #imagenes-total
+ {
+  display: flex;
+  padding-top: 50px;
+ }
+ .foto
+ {
+  width: 33%;
+  text-align: center;
+  /*border: 1px solid black;*/
+ }
+
+ .foto-int
+ {
+  width: 90%;
+ }
