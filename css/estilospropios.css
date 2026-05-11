@@ -7,7 +7,7 @@ h1 {
   /*fondo de la barra completa*/
   padding: 15px;
   /*una margen en la barra*/
-  box-shadow: 5px 2px 5px 2px black;
+  box-shadow: 0px 2px 5px 2px black;
 
 }
 
@@ -34,24 +34,32 @@ a {
 #servicios {
   margin-top: 50px;
   display: flex;
+  flex-wrap: wrap;
   justify-content: space-evenly;
-  flex-direction: row;
+  flex-direction: row-reverse;
+  
+
 }
 
 #image1-serv {
   /* border: 1px solid black; */
+  
   width: 25%;
   height: 300px;
-  background-color: #a98556;
+  background-color: #4f4231;
   border-radius: 5px;
   box-shadow: 5px 5px 15px 2px gray;
+}
+
+#image1-serv:hover {
+  background-color: #a27943;
 }
 
 #image2-serv {
   /* border: 1px solid black; */
   width: 25%;
   height: 300px;
-  background-color: #a98556;
+  background-color: #4f4231;
   border-radius: 5px;
   box-shadow: 5px 5px 15px 2px gray;
 }
@@ -60,10 +68,19 @@ a {
   /* border: 1px solid black; */
   width: 25%;
   height: 300px;
-  background-color: #a98556;
+  background-color: #4f4231;
   border-radius: 5px;
   box-shadow: 5px 5px 15px 2px gray;
 }
+#image3-serv:hover {
+  background-color: #a27943;
+}
+
+
+
+
+
+
 
 .imgServ {
   width: 100%;
@@ -72,6 +89,7 @@ a {
 #contenidoPpal
 {
   display: flex;
+  flex-wrap: wrap;
   justify-content: space-evenly;
   margin-top: 50px;
   background-color: #af7849;
@@ -97,6 +115,7 @@ a {
 #registro
 {
   display: flex;
+  flex-wrap: wrap;
   justify-content: space-evenly;
   margin-top: 50px;
   
@@ -110,6 +129,12 @@ a {
 {
    width: 45%;
 }
+
+
+
+
+
+
 table
 {
   width: 100%;
@@ -119,10 +144,11 @@ table
 #contenidoFooter
 {
   display: flex;
+  flex-wrap: wrap;
   padding: 150px;
   justify-content: space-evenly;
-   background-color: #af7849;
-   margin-top: 30px;
+  background-color: #af7849;
+  margin-top: 30px;
 }
 #cont1
 {
@@ -132,4 +158,36 @@ table
 {
   width: 40%;
 
+}
+
+@media(max-width:450px)
+{
+
+  #servicios {
+    flex-direction: column;
+  }
+
+  #image1-serv, #image2-serv, #image3-serv, #cont1, #cont2
+  {
+    width: 96%;
+    margin: 0 auto 10px auto;
+    
+  }
+
+  #tabla, #formulario, #cajvideo, #textoPpal
+  {
+    width: 96%;
+    margin: 0 auto 10px auto;
+  }
+  #contenidoFooter
+  {
+    padding: 60px;
+  }
+  
+
+}
+
+#correoPropietario:valid
+{
+  background-color: #4c8341;
 }
